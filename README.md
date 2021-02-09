@@ -1,22 +1,22 @@
-#Business Card Wallet
+# Business Card Wallet
 
 This app scans the business cards and add it to the app wallet, or you can export it to your phones contact.
 
 This is the Ionic Vue - Capacitor app
 
-###Internal Working:
+### Internal Working:
 1. Capture or select the business card
 2. Imge is converted to text using ml-kit
 3. The text is send to server. Server code is in [this repo](https://github.com/yaliniyalu/business-card-wallet-api)
-	a. The text is proceesed from expert.ai api.
-	b. The json from expert.ai is analysed to select or predict name, company, title/job, address, email, phone number and web address.
-	c. Response is sent to the app.
+	1. The text is proceesed from expert.ai api.
+	2. The json from expert.ai is analysed to select or predict name, company, title/job, address, email, phone number and web address.
+	3. Response is sent to the app.
 4. App displays the output from the server.
 5. When user clicks Save it is saved in sqlite database.
 6. When user click add to contacts (View Page) the entry is added to phone contacts.
 
 
-###To run:
+### To run:
 
 Change the server url in `src/config.ts`
 
