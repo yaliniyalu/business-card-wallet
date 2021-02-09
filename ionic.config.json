@@ -1,0 +1,7 @@
+{
+  "name": "Business Card Wallet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

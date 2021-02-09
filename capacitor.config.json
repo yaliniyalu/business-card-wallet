@@ -1,0 +1,16 @@
+{
+  "appId": "com.yalusoft.businesscardwallet",
+  "appName": "Business Card Wallet",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": false
+    }
+  },
+  "cordova": {},
+  "server": {
+  }
+}
